@@ -11,6 +11,9 @@
         "ghcr.io/devcontainers/features/github-cli:1",
         "ghcr.io/meaningful-ooo/devcontainer-features/fish:1"
     ],
+    "mounts": [
+        "source=${localWorkspaceFolder}/workspace/data,target=/workspace/data,type=bind"
+    ],
     "settings": {
         "python.pythonPath": "/opt/conda/envs/myenv/bin/python"
     }
