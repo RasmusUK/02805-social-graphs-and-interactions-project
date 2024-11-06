@@ -1,0 +1,17 @@
+{
+    "name": "Python Miniconda Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "."
+    },
+    "extensions": [
+        "ms-python.python",      
+        "ms-toolsai.jupyter",
+        "GitHub.copilot",
+        "ghcr.io/devcontainers/features/github-cli:1",
+        "ghcr.io/meaningful-ooo/devcontainer-features/fish:1"
+    ],
+    "settings": {
+        "python.pythonPath": "/opt/conda/envs/myenv/bin/python"
+    }
+}
