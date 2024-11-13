@@ -142,3 +142,4 @@ dependencies:
     - Wikipedia-API==0.7.1
     - wordcloud==1.9.3
     - bz2file==0.98
+    - ipynb==0.5.1
