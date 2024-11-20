@@ -4,17 +4,26 @@
         "dockerfile": "Dockerfile",
         "context": "."
     },
-    "extensions": [
-        "ms-python.python",      
-        "ms-toolsai.jupyter",
-        "GitHub.copilot",
-        "ghcr.io/devcontainers/features/github-cli:1",
-        "ghcr.io/meaningful-ooo/devcontainer-features/fish:1"
-    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",      
+                "ms-toolsai.jupyter",
+                "GitHub.copilot",
+                "devcontainers.github-cli",
+                "meaningful-ooo.fish"
+            ]
+        },
+    "settings": {
+        "python.pythonPath": "/opt/conda/envs/myenv/bin/python"
+    }
+    },
     "mounts": [
         "source=${localWorkspaceFolder}/workspace/data,target=/workspace/data,type=bind"
     ],
-    "settings": {
-        "python.pythonPath": "/opt/conda/envs/myenv/bin/python"
+    "features": {
+        "ghcr.io/devcontainers-extra/features/gh-cli:1": {},
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
     }
 }
