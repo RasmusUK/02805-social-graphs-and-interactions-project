@@ -1,0 +1,8 @@
+Community,Users,Movies,Most Common Genre,Genre Percentage,Top Central Movies
+1,169,2620,o,67.13740458015268,"[('Matrix, The (1999)', 0.02833843017329256), ('Fight Club (1999)', 0.022222222222222223), ('Lord of the Rings: The Fellowship of the Ring, The (2001)', 0.02018348623853211)]"
+2,149,1857,r,71.19009154550349,"[('Star Wars: Episode V - The Empire Strikes Back (1980)', 0.021508664627930683), ('American Beauty (1999)', 0.020795107033639144), ('Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 0.020387359836901122)]"
+3,36,1415,m,72.65017667844523,"[('Clockwork Orange, A (1971)', 0.012232415902140673), ('Edward Scissorhands (1990)', 0.00815494393476045), ('High Fidelity (2000)', 0.00764525993883792)]"
+4,13,1247,o,80.11226944667202,"[('Shining, The (1980)', 0.011111111111111112), ('Princess Mononoke (Mononoke-hime) (1997)', 0.004892966360856269), ('Cell, The (2000)', 0.0045871559633027525)]"
+5,5,899,a,93.65962180200222,"[('Good Night, and Good Luck. (2005)', 0.0020387359836901123), ('Seven Years in Tibet (1997)', 0.0014271151885830785), ('Whale Rider (2002)', 0.0014271151885830785)]"
+6,5,748,e,74.33155080213903,"[('Little Nicky (2000)', 0.0024464831804281344), ('George of the Jungle (1997)', 0.0020387359836901123), ('Major League (1989)', 0.0020387359836901123)]"
+7,233,415,m,66.02409638554217,"[('Independence Day (a.k.a. ID4) (1996)', 0.020591233435270133), ('Star Wars: Episode VI - Return of the Jedi (1983)', 0.0199796126401631), ('Back to the Future (1985)', 0.01743119266055046)]"
